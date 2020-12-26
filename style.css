@@ -1,0 +1,155 @@
+body
+{
+	padding: 0;
+	margin: 0;
+	background-color: red;
+}
+.main
+{
+	background-color: #96c859;
+	height:400px;
+	width:400px;
+	border-radius: 55%;
+	position: absolute;
+	margin:auto;
+	top:0;
+	left:0;
+	right: 0;
+	bottom: 0;
+    border: 8px dashed white;
+
+}
+
+
+.bell , .bell2
+{
+	height: 0;
+	width: 60px;
+	border-bottom: 70px solid #ffd260;
+	border-left: 12px solid transparent;
+	border-right: 12px solid transparent;
+}
+.bell
+{
+	position: relative;
+	top: 150px;
+	left: 90px;
+	transform: rotate(25deg);
+
+}
+.top
+{
+	height: 0;
+	width: 60px;
+	left: -1px;
+	border-bottom: 21px solid #ffd260;
+	border-left:-10px solid transparent;
+	border-right: -5px solid transparent;
+    position: relative;
+    top: -20px;
+    bottom:20px; 
+    border-radius:30px 30px 0 0;
+}
+.bottom
+{
+	height: 0;
+	width: 78px;
+	left: -21px;
+	border-bottom: 21px solid #ffcc4d;
+	border-left:12px solid transparent;
+	border-right: 12px solid transparent;
+    position: relative;
+    top: 38px;
+    bottom:23px; 
+
+}
+.b
+{
+	background-color: #ffd260;
+	height: 15px;
+	width: 30px;
+	position:relative;
+	top:37px;
+	border-radius: 0 0 15px 15px;
+	animation: ring 3s infinite;
+
+}
+@keyframes ring
+
+{
+
+	50%
+	{
+		transform: translate(42px);
+	}
+	}
+
+	.bell2{
+	position: relative;
+	top: 80px;
+	left: 170px;
+	transform: rotate(-21deg);
+}
+.b1
+{
+	height: 25px;
+	width: 0px;
+	border-right: 40px solid #e95840;
+	
+	border-top: 15px solid transparent;
+	
+	border-bottom: 15px solid transparent;
+	position: relative;
+	bottom: 17px;
+	left: 25px;
+}
+.bow
+{
+	position: relative;
+	left: 160px;
+	bottom: 30px;
+	transform: rotate(-5deg);
+
+}
+.b2
+{
+	height: 25px;
+	width: 0px;
+	border-left: 40px solid #e95840;
+	
+	border-top: 15px solid transparent;
+	
+	border-bottom: 15px solid transparent;
+	position: relative;
+	bottom: 72px;
+	right: 30px;
+	
+}
+.b3
+{
+
+	}
+.b3
+{
+	
+	background-color: #e4391b;
+	height: 40px;
+	width: 35px;
+	border-radius: 15px;
+	position: relative;
+bottom: 115px;
+
+	
+}
+.container
+{
+	position: relative;
+	animation: rg 4s infinite;
+
+}
+@keyframes rg {
+	50%
+	{
+		transform: rotate(30deg);
+	}
+}
